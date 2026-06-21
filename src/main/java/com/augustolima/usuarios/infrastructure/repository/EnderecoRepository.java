@@ -1,6 +1,6 @@
 package com.augustolima.usuarios.infrastructure.repository;
 
-import com.javanauta.usuario.infrastructure.entity.Endereco;
+import com.augustolima.usuarios.infrastructure.entity.Endereco;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

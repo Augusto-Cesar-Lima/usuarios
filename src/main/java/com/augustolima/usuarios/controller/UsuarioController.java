@@ -2,6 +2,7 @@ package com.augustolima.usuarios.controller;
 
 import com.augustolima.usuarios.business.UsuarioService;
 import com.augustolima.usuarios.business.dto.UsuarioDTO;
+import com.augustolima.usuarios.infrastructure.exceptions.ConflictException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
